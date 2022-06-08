@@ -1,1 +1,0 @@
-# C0422G1_NguyenHuuThuc_Module2
