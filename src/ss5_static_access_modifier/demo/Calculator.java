@@ -1,4 +1,4 @@
-package ss5_static_access_modifer;
+package ss5_static_access_modifier.demo;
 // Class tiện ích
 public class Calculator {
     // biến thường

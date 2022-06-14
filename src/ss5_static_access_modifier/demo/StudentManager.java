@@ -1,4 +1,4 @@
-package ss5_static_access_modifer;
+package ss5_static_access_modifier.demo;
 
 import java.util.Scanner;
 
@@ -30,7 +30,7 @@ public class StudentManager {
         String address = scanner.nextLine();
         System.out.println("nhập giới tính");
         boolean gender = Boolean.parseBoolean(scanner.nextLine());
-        System.out.println("nhập giới email");
+        System.out.println("nhập email");
         String email = scanner.nextLine();
         Student student = new Student(id,name,address,gender,email);
         for (int i = 0; i <students.length ; i++) {

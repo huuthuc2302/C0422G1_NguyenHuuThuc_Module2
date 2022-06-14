@@ -1,4 +1,4 @@
-package ss5_static_access_modifer;
+package ss5_static_access_modifier.demo;
 
 import java.util.Scanner;
 
