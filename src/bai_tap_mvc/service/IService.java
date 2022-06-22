@@ -7,5 +7,4 @@ public interface IService {
     void delete();
     void searchByName(String name);
     void sort();
-
 }
