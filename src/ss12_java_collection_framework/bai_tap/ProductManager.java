@@ -1,6 +1,5 @@
 package ss12_java_collection_framework.bai_tap;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 import static ss12_java_collection_framework.bai_tap.Function.products;
@@ -8,9 +7,9 @@ import static ss12_java_collection_framework.bai_tap.Function.products;
 public class ProductManager {
     public static void main(String[] args) {
         Scanner scaner = new Scanner(System.in);
-        int check ;
+        int check;
 
-        do{
+        do {
             System.out.println("CHƯƠNG TRÌNH QUẢN LÝ SẢN PHẨM");
             System.out.println("1.Thêm mới sản phẩm.");
             System.out.println("2.Hiển thị sản phẩm.");
@@ -46,6 +45,6 @@ public class ProductManager {
                     break;
             }
             System.out.println();
-        }while (check < 5);
+        } while (check < 5);
     }
 }

@@ -29,6 +29,7 @@ public class Function {
 
         return new Product(name,manu,year,id);
     }
+
     public static void display(){
         for (Product s: products) {
             System.out.println(s);
